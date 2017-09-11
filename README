@@ -1,0 +1,17 @@
+Compilar:
+
+gcc imagenes.c -o imagenes
+
+
+Executar:
+
+./imagenes
+
+
+
+Análise do Conteúdo da Imagem PPM:
+
+P3       <- Cadeia constante que indica o formato (PPM, color RGB)
+512 512  <- Dimensões da imagem (número de colunas e numero de linhas)
+255      <- Maior nível de intensidade
+224 137 125 225 135 ... <- 512 x 512 x 3 valores. Cada ponto são três valores consecutivos (R,G,B)
